@@ -21,20 +21,7 @@ class SecondPage extends StatelessWidget {
                 backgroundColor: Theme.of(context).primaryColor,
                 colorText: Colors.white,
                 duration: const Duration(milliseconds: 1500),
-                //  titleText: const Text(
-                //    "Item",
-                //    style: TextStyle(
-                //      fontSize: 40,
-                //      color: Colors.white
-                //    ),
-                //  ),
-                //  messageText: const Text(
-                //    "Can not reduce more",
-                //    style: TextStyle(
-                //        fontSize: 20,
-                //        color: Colors.white
-                //    ),
-                //  )
+
               );
             } else {
               Provider.of<DataClass>(context, listen: false).decrementX();
